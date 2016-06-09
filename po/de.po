@@ -11197,6 +11197,27 @@ msgstr "umgeschaltet"
 msgid "®"
 msgstr "®"
 
+msgid "Set pin code persistent"
+msgstr "PIN dauerhaft speichern"
+
+msgid "Enter persistent PIN code"
+msgstr "PIN eingeben"
+
+msgid "Enter PIN"
+msgstr "PIN eingeben"
+
+msgid "Reset persistent PIN code"
+msgstr "PIN zurücksetzen"
+
+msgid "Reenter PIN"
+msgstr "PIN-Eingabe wiederholen"
+
+msgid "Reenter new PIN"
+msgstr "Neue PIN erneut eingeben"
+
+msgid "The saved PIN was cleared."
+msgstr "Die PIN wurde zurückgesetzt."
+
 #~ msgid ""
 #~ "\n"
 #~ "Change color to grey?"
