@@ -6103,9 +6103,6 @@ msgstr "rot gefärbt"
 msgid "RedPanel"
 msgstr "RedPanel"
 
-msgid "Reenter new PIN"
-msgstr "Neuen PIN erneut eingeben"
-
 msgid "Refresh"
 msgstr "Aktualisieren"
 
