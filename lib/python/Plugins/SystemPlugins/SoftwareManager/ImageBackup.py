@@ -18,7 +18,7 @@ import commands
 import datetime
 from boxbranding import getBoxType, getMachineBrand, getMachineName, getDriverDate, getImageVersion, getImageBuild, getBrandOEM, getMachineBuild, getImageFolder, getMachineUBINIZE, getMachineMKUBIFS, getMachineMtdKernel, getMachineKernelFile, getMachineRootFile, getImageFileSystem
 
-VERSION = "Version 4.0 openATV"
+VERSION = "Version 4.0 OpenXTA"
 
 def Freespace(dev):
 	statdev = statvfs(dev)
@@ -206,14 +206,14 @@ class ImageBackup(Screen):
 
 		cmdlist = []
 		cmdlist.append(self.message)
-		cmdlist.append('echo "Create: root.%s\n"' %self.ROOTFSTYPE)
+		cmdlist.append('echo "' + _("Create:") + ' root.%s\n"' %self.ROOTFSTYPE)
 		cmdlist.append(cmd1)
 		if cmd2:
 			cmdlist.append(cmd2)
 			cmdlist.append(cmd3)
 		cmdlist.append("chmod 644 %s/root.%s" %(self.WORKDIR, self.ROOTFSTYPE))
 		cmdlist.append('echo " "')
-		cmdlist.append('echo "Create: kerneldump"')
+		cmdlist.append('echo "' + _("Create: kerneldump") + '"')
 		cmdlist.append('echo " "')
 		cmdlist.append("nanddump -a -f %s/vmlinux.gz /dev/%s" % (self.WORKDIR, self.MTDKERNEL))
 		cmdlist.append('echo " "')
@@ -225,8 +225,8 @@ class ImageBackup(Screen):
 	def doFullBackupCB(self):
 		ret = commands.getoutput(' gzip -d %s/vmlinux.gz -c > /tmp/vmlinux.bin' % self.WORKDIR)
 		if ret:
-			text = "Kernel dump error\n"
-			text += "Please Flash your Kernel new and Backup again"
+			text = _("Kernel dump error\n")
+			text += _("Please Flash your Kernel new and Backup again")
 			system('rm -rf /tmp/vmlinux.bin')
 			self.session.open(MessageBox, _(text), type = MessageBox.TYPE_ERROR)
 			return
@@ -236,8 +236,8 @@ class ImageBackup(Screen):
 		cmdlist.append('echo "Kernel dump OK"')
 		cmdlist.append("rm -rf /tmp/vmlinux.bin")
 		cmdlist.append('echo "_________________________________________________"')
-		cmdlist.append('echo "Almost there... "')
-		cmdlist.append('echo "Now building the USB-Image"')
+		cmdlist.append('echo "' + _("Almost there... ") + '"')
+		cmdlist.append('echo "' + _("Now building the USB-Image") + '"')
 
 		system('rm -rf %s' %self.MAINDEST)
 		if not path.exists(self.MAINDEST):
@@ -289,16 +289,16 @@ class ImageBackup(Screen):
 
 		if file_found:
 			cmdlist.append('echo "_________________________________________________\n"')
-			cmdlist.append('echo "USB Image created on:" %s' %self.MAINDEST)
-			cmdlist.append('echo "and there is made an extra copy on:"')
+			cmdlist.append('echo "' + _("USB Image created on: %s" %self.MAINDEST) + '"')
+			cmdlist.append('echo "' + _("and there is made an extra copy on:") + '"')
 			cmdlist.append('echo %s' %self.EXTRA)
 			cmdlist.append('echo "_________________________________________________\n"')
 			cmdlist.append('echo " "')
-			cmdlist.append('echo "\nPlease wait...almost ready! "')
+			cmdlist.append('echo "\n' + _("Please wait...almost ready! ") + '"')
 			cmdlist.append('echo " "')
-			cmdlist.append('echo "To restore the image:"')
-			cmdlist.append('echo "Please check the manual of the receiver"')
-			cmdlist.append('echo "on how to restore the image"')
+			cmdlist.append('echo "' + _("To restore the image:") + '"')
+			cmdlist.append('echo "' + _("Please check the manual of the receiver") + '"')
+			cmdlist.append('echo "' + _("on how to restore the image") + '"')
 		else:
 			cmdlist.append('echo "_________________________________________________\n"')
 			cmdlist.append('echo "Image creation failed - "')
@@ -338,7 +338,7 @@ class ImageBackup(Screen):
 		END = time()
 		DIFF = int(END - self.START)
 		TIMELAP = str(datetime.timedelta(seconds=DIFF))
-		cmdlist.append('echo " Time required for this process: %s"' %TIMELAP)
+		cmdlist.append('echo " ' + _("Time required for this process: %s" %TIMELAP) + '"')
 
 		self.session.open(Console, title = self.TITLE, cmdlist = cmdlist, closeOnSuccess = False)
 
