@@ -307,7 +307,7 @@ class RemoteControlType(Screen, ConfigListScreen):
 			("11", "ET-9200"), 
 			("9", "ET-6500"), 
 			("9 ", "ET-9500"),
-			("17", "ET-8500"),
+			("16", "ET-8500"),
 			("16", "ET-7000 / ET-7500"), 
 			("9  ", "ET-8000 / ET-10000"),
 		]
@@ -320,7 +320,7 @@ class RemoteControlType(Screen, ConfigListScreen):
 			("et7000", 16),
 			("et7500", 16),
 			("et8000", 9),
-			("et8500", 17),
+			("et8500", 16),
 			("et9000", 5),
 			("et9200", 11),
 			("et9500", 9),
