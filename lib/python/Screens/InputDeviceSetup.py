@@ -307,8 +307,8 @@ class RemoteControlType(Screen, ConfigListScreen):
 			("11", "ET-9200"), 
 			("9", "ET-6500"), 
 			("9 ", "ET-9500"),
-			("16", "ET-8500"),
-			("16", "ET-7000 / ET-7500"), 
+			("16", "ET-7000"),
+			("16 ", "ET-7500 / ET-8500"), 
 			("9  ", "ET-8000 / ET-10000"),
 		]
 
@@ -392,15 +392,15 @@ class RemoteControlType(Screen, ConfigListScreen):
                         file.close()
                         rc = self.et9000
 		        self["remote"].instance.setPixmapFromFile(rc)
-                elif config.plugins.remotecontroltype.rctype.value and int(self.rctype.value) == 17:
-		        file.write('et8500')
-                        file.close()
-                        rc = self.et8000
-		        self["remote"].instance.setPixmapFromFile(rc)
                 elif config.plugins.remotecontroltype.rctype.value and int(self.rctype.value) == 16:
 		        file.write('et7000')
                         file.close()
                         rc = self.et7000
+		        self["remote"].instance.setPixmapFromFile(rc)
+                elif config.plugins.remotecontroltype.rctype.value and int(self.rctype.value) == '16 ':
+		        file.write('et8500')
+                        file.close()
+                        rc = self.et8000
 		        self["remote"].instance.setPixmapFromFile(rc)
                 elif config.plugins.remotecontroltype.rctype.value and self.rctype.value == '9':
 		        file.write('et6500')
