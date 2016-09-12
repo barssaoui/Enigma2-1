@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: enigma\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-21 19:08+0200\n"
-"PO-Revision-Date: 2016-09-01 11:50\n"
+"PO-Revision-Date: 2016-09-10 11:35\n"
 "Last-Translator: Smokey <www.xtrend-alliance.com>\n"
 "Language-Team: PLiteam <translators@openpli.org>\n"
 "Language: nl\n"
@@ -33,6 +33,13 @@ msgid ""
 msgstr ""
 "\n"
 "Backup de ontvangerinstellingen."
+
+msgid ""
+"\n"
+"Backup your running %s %s image to HDD or USB."
+msgstr ""
+"\n"
+"Maak een backup van uw huigige %s %s image op HDD of USB."
 
 msgid ""
 "\n"
@@ -128,6 +135,15 @@ msgstr ""
 "\n"
 "\n"
 "[Gebruikers - bouquetten (TV)]\n"
+
+msgid ""
+"\n"
+"\n"
+"Use following address as IPTV media server?\n"
+msgstr ""
+"\n"
+"\n"
+"Het volgende adres gebruiken als IPTV media server?\n"
 
 msgid " (PiP)"
 msgstr "(PiP)"
@@ -940,6 +956,13 @@ msgstr "Backup wordt uitgevoerd..."
 msgid "Backup location"
 msgstr "Backup locatie"
 
+msgid ""
+"Backup plugins found\n"
+"do you want to install now?"
+msgstr ""
+"Backup plugins gevonden\n"
+"wilt u deze nu installeren?"
+
 msgid "Backup Settings"
 msgstr "Backup Instellingen"
 
@@ -1002,6 +1025,12 @@ msgstr "Blauwe impuls"
 
 msgid "Bookmarks"
 msgstr "Markeerpunten"
+
+msgid "Bouquet + = install or update driver"
+msgstr "P+/CH+ = driver installeren of updaten"
+
+msgid "Bouquet - = scan for IPTV server addresses"
+msgstr "P-/CH- = zoek naar IPTV sever adressen"
 
 msgid "Brightness"
 msgstr "Helderheid"
@@ -2136,8 +2165,8 @@ msgstr ""
 "Na selectie zal Enigma2 herstart worden."
 
 msgid "Current Second-infobar setting is None !"
-msgstr"" 
-"Huidige instelling van Uitgebreid informatiescherm weergeven, is verbergen !"
+msgstr "Huidige instelling van Uitgebreid informatiescherm weergeven, is "
+"verbergen !"
 
 msgid ""
 "Current Second-infobar setting is None.\n"
@@ -2261,6 +2290,9 @@ msgstr "Wilt u nu een backup maken van uw instellingen?"
 msgid "Do you want to restart now?"
 msgstr "Wilt u nu herstarten?"
 
+msgid "Do you want to update your %s %s?"
+msgstr "Wilt u uw %s %s updaten?"
+
 msgid "DUAL LAYER DVD"
 msgstr "DUAL LAYER DVD"
 
@@ -2297,6 +2329,9 @@ msgstr ""
 "DVB Tijd update naar %s\n"
 "is met succes uitgevoerd."
 
+msgid "DVB Transmission Way"
+msgstr "DVB Antenne Systeem"
+
 msgid "DVB subtitle black transparency"
 msgstr "Zwarte transparantie van DVB ondertitels"
 
@@ -2331,7 +2366,7 @@ msgid "DVD file browser"
 msgstr "DVD bestandszoeker"
 
 msgid "DVD media toolbox"
-msgstr "DVD medium gereedschap"
+msgstr "DVD media gereedschap"
 
 msgid "DVD player"
 msgstr "DVD-speler"
@@ -2607,6 +2642,9 @@ msgstr "Wilt u de DVD in de speler afspelen?"
 
 msgid "Do you want to preview this DVD before burning?"
 msgstr "Wilt u de DVD bekijken alvorens deze te branden?"
+
+msgid "Do you want to reboot your %s %s?"
+msgstr "Wilt u uw %s %s herstarten?"
 
 msgid "Do you want to reboot your receiver?"
 msgstr "Wilt u de ontvanger opnieuw opstarten?"
@@ -3118,6 +3156,9 @@ msgstr "Snel Flashen"
 msgid "Flash On the fly (select an image)"
 msgstr "Snel Flashen (selecteer een image)"
 
+msgid "Flash on the fly your receiver."
+msgstr "Uw ontvanger snel flashen."
+
 msgid "Flash and restore settings and all saved plugins"
 msgstr "Flash en herstel instellingen plus alle opgeslagen plugins"
 
@@ -3376,6 +3417,9 @@ msgstr "Hier kunt u skins downloaden, installeren of verwijderen"
 msgid "Hidden network"
 msgstr "Verborgen netwerk"
 
+msgid "Hide"
+msgstr "Verbergen"
+
 msgid "Hide CI messages"
 msgstr "Verberg CI meldingen"
 
@@ -3454,6 +3498,9 @@ msgstr "Image-Gereedschap"
 msgid "Inactive"
 msgstr "Inactief"
 
+msgid "Info = show tuner informations"
+msgstr "Info = toon tuner informatie"
+
 msgid "Info Panel"
 msgstr "Info Paneel"
 
@@ -3466,8 +3513,14 @@ msgstr "Info's"
 msgid "Infos..."
 msgstr "Info's..."
 
+msgid "Install Plugins"
+msgstr "Installeer Plugins"
+
 msgid "Install skin"
 msgstr "Installeer skin"
+
+msgid "Installing plugins..."
+msgstr "Plugins installeren..."
 
 msgid "Invalid day %s !"
 msgstr "Ongeldige dag %s !"
@@ -3710,6 +3763,13 @@ msgstr "Zijn deze instellingen correct?"
 
 msgid "Is this video mode ok?"
 msgstr "Is deze videomode correct?"
+
+msgid ""
+"It seems the sundtek driver is not installed or not installed properly. "
+"Install the driver now?"
+msgstr ""
+"Het lijkt er op dat de sundtek driver niet, of niet goed geïnstalleerd is. "
+"De driver nu installeren?"
 
 msgid "Italian"
 msgstr "Italiaans"
@@ -4246,6 +4306,9 @@ msgstr "Netwerk..."
 msgid "Network ID"
 msgstr "Netwerk ID"
 
+msgid "Network IP"
+msgstr "Netwerk IP"
+
 msgid "Network configuration..."
 msgstr "Netwerkconfiguratie..."
 
@@ -4305,6 +4368,9 @@ msgstr "Geen verbinding"
 
 msgid "No HDD found or HDD not initialized!"
 msgstr "Geen harde schijf gevonden of de harde schijf is niet geïnitialiseerd!"
+
+msgid "No IPTV media server found"
+msgstr "Geen IPTV media server gevonden"
 
 msgid ""
 "No USB-Device found for fullbackup !!\n"
@@ -4578,6 +4644,9 @@ msgstr ""
 msgid "OK"
 msgstr "Bevestigen"
 
+msgid "OK/ green = activate settings"
+msgstr "OK/ groen = activeer instellingen"
+
 msgid "OK will set new time and restart Enigma 2 !"
 msgstr "Met OK wordt de nieuwe tijd actief, en zal Enigma 2 herstarten !"
 
@@ -4673,6 +4742,9 @@ msgstr "PMT PID"
 
 msgid "Package list update"
 msgstr "Pakketlijst vernieuwen"
+
+msgid "Packages"
+msgstr "Paketten"
 
 msgid "Packet management"
 msgstr "Pakketbeheer"
@@ -4813,7 +4885,7 @@ msgid "Please add titles to the compilation."
 msgstr "Voeg aub titels toe aan de compilatie"
 
 msgid "Please be patient, a backup will now be made,\n"
-msgstr "Even geduld aub, er wordt nu een back-up gemaakt,\n"
+msgstr "Even geduld aub, er wordt nu een back-up gemaakt.\n"
 
 msgid "Please change recording endtime"
 msgstr "Wijzig de opname eindtijd aub."
@@ -4829,6 +4901,9 @@ msgstr "Kies een extensie aub..."
 
 msgid "Please select medium"
 msgstr "Selecteer een opslag medium aub"
+
+msgid "Please wait while we check your installed plugins..."
+msgstr "Controleren op geïnstalleerde plugins, even geduld aub..."
 
 msgid ""
 "Please configure or verify your Nameservers by filling out the required "
@@ -4999,22 +5074,22 @@ msgid "Please wait (updating packages)"
 msgstr "Een ogenblik geduld (de pakketten worden geactualiseerd)"
 
 msgid "Please wait for activation of your network configuration..."
-msgstr "Een ogenblikje geduld terwijl we uw netwerk activeren..."
+msgstr "Een ogenblikje geduld, uw netwerk wordt geactiveerd..."
 
 msgid "Please wait while scanning is in progress..."
 msgstr "Een ogenblikje geduld, zoeken is bezig..."
 
 msgid "Please wait while we configure your network..."
-msgstr "Een ogenblik geduld aub terwijl we uw netwerk configureren..."
+msgstr "Een ogenblik geduld aub, uw netwerk wordt geconfigureerd..."
 
 msgid "Please wait while we prepare your network interfaces..."
-msgstr "Een ogenblik geduld aub terwijl we uw netwerkinterface prepareren..."
+msgstr "Een ogenblik geduld aub, uw netwerkinterface wordt voobereid..."
 
 msgid "Please wait while we test your network..."
-msgstr "Een ogenblik geduld aub terwijl uw netwerk getest wordt..."
+msgstr "Een ogenblik geduld aub, uw netwerk wordt getest..."
 
 msgid "Please wait while your network is restarting..."
-msgstr "Een ogenblik geduld aub terwijl uw netwerk wordt herstart..."
+msgstr "Een ogenblik geduld aub, uw netwerk wordt herstart..."
 
 msgid "Please wait..."
 msgstr "Even geduld aub..."
@@ -5513,6 +5588,9 @@ msgstr ""
 msgid "Restart GUI now?"
 msgstr "Herstart Enigma2 nu?"
 
+msgid "Restart Network Adapter"
+msgstr "Herstart Netwerk Adapter"
+
 msgid "Restart enigma"
 msgstr "Herstart enigma"
 
@@ -5546,6 +5624,9 @@ msgstr "Herstellen"
 
 msgid "Restore backups"
 msgstr "Backups terugzetten"
+
+msgid "Restore Plugins"
+msgstr "Herstel Plugins"
 
 msgid "Restore is running..."
 msgstr "Herstellen wordt uitgevoerd..."
@@ -5615,6 +5696,9 @@ msgstr "Rotor draaisnelheid"
 
 msgid "Round start time on"
 msgstr "Starttijd afronden op"
+
+msgid "Running Myrestore script, Please wait ..."
+msgstr "Het Myrestore script wordt nu uitgevoerd, Even geduld aub ..."
 
 msgid "Russian"
 msgstr "Russisch"
@@ -6098,6 +6182,9 @@ msgstr "Instellingen menu"
 msgid "Setup mode"
 msgstr "Toegangsniveau instellen"
 
+msgid "Setup Skin"
+msgstr "Skin Instellen"
+
 msgid "Setup your positioner"
 msgstr "Instellen rotor"
 
@@ -6523,6 +6610,9 @@ msgstr "Sorry, er zijn geen backups gevonden!"
 msgid "Sorry, no details available!"
 msgstr "Sorry, er zijn geen details beschikbaar!"
 
+msgid "Sorry, no settings backups found!"
+msgstr "Sorry, er zijn geen settings backups gevonden!"
+
 msgid ""
 "Sorry, no physical devices that supports SWAP attached. Can't create Swapfile "
 "on network or fat32 filesystems"
@@ -6824,6 +6914,16 @@ msgstr "Zondag"
 
 msgid "Sundtek Control-Center"
 msgstr "Sundtek Controle-Centrum"
+
+msgid "Sundtek Control Center"
+msgstr "Sundtek Controle Centrum"
+
+msgid ""
+"Sundtek legal notice:\n"
+"This software comes without any warranty, use it at your own risk?"
+msgstr ""
+"Sundtek juridische kennisgeving:\n"
+"Deze software komt zonder garantie, wilt u het op eigen risico gebruiken?"
 
 msgid "Swap File not found. You have to create the file before to activate."
 msgstr ""
@@ -7591,6 +7691,9 @@ msgstr "USALS"
 msgid "USALS calibration"
 msgstr "USALS calibratie"
 
+msgid "USB/Network"
+msgstr "USB/Netwerk"
+
 msgid "USB Image created on: %s"
 msgstr "USB Image gecreëerd op: %s"
 
@@ -7692,6 +7795,9 @@ msgstr "Beschikbare Updates:"
 
 msgid "Updating software catalog"
 msgstr "Software catalogus wordt geüpdatet"
+
+msgid "Upgrade finished."
+msgstr "Updaten klaar."
 
 msgid "Upgrading"
 msgstr "Bezig met update"
@@ -8733,6 +8839,9 @@ msgstr ""
 msgid "You system does not support ext4"
 msgstr "Uw systeem ondersteunt geen ext4"
 
+msgid "Your %s %s will Reboot..."
+msgstr "Uw %s %s zal nu Herstarten..."
+
 msgid "Your STB will freeze during the flashing process.\n"
 msgstr "Uw ontvanger is 'bevroren' tijdens het flashen.\n"
 
@@ -9012,7 +9121,7 @@ msgid "bc%s"
 msgstr "bc%s"
 
 msgid "because of the used filesystem the back-up\n"
-msgstr "Vanwege het gebruikte filesysteem,zal de back-up\n"
+msgstr "Vanwege het gebruikte filesysteem, zal de back-up\n"
 
 msgid "better"
 msgstr "beter"
@@ -9075,6 +9184,9 @@ msgstr "circular links"
 
 msgid "circular right"
 msgstr "circular rechts"
+
+msgid "comand line: %s"
+msgstr "commando lijn: %s"
 
 msgid "comedy"
 msgstr "comedy"
@@ -9325,6 +9437,9 @@ msgstr "Markeerpunt invoegen"
 
 msgid "install *.ipk, *.tar.gz files"
 msgstr "installeer *.ipk, *.tar.gz bestanden"
+
+msgid "installs the sundtek driver and runs related shellscripts"
+msgstr "installeert de sundtek drivers en start de gerelateerde shellscripts"
 
 msgid "invalid type"
 msgstr "ongeldig type"
@@ -9828,6 +9943,9 @@ msgstr "stereo"
 msgid "stop using as startup service"
 msgstr "stop met het gebruiken als opstartzender"
 
+msgid "sundtek control center plugin"
+msgstr "sundtek controle centrum plugin"
+
 msgid "switch to bookmarks"
 msgstr "Ga naar markeerpunten"
 
@@ -9911,6 +10029,9 @@ msgstr "Variété / Show"
 
 msgid "vertical"
 msgstr "verticaal"
+
+msgid "via Network"
+msgstr "via Netwerk"
 
 msgid "wait for ci..."
 msgstr "wacht op CI..."
