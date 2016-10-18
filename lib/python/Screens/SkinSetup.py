@@ -203,7 +203,7 @@ class SettingsC(Screen):
           if self.cur is not None:
                 self.session.open(MessageBox, _("Current Second-infobar setting is Show !"), type = MessageBox.TYPE_INFO,timeout = 10 )
           else:
-                config.usage.show_second_infobar.value = int(0)
+                config.usage.show_second_infobar.value = "0"
     	        config.usage.show_second_infobar.save()
 
 #    	        self.session.open(TryQuitMainloop, 3)
