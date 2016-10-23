@@ -64,8 +64,8 @@ class FlashOnline(Screen):
 		self.session = session
 
 		Screen.setTitle(self, _("Flash On the Fly"))
-		self["key_yellow"] = Button("Local")
-		self["key_green"] = Button("Online")
+		self["key_yellow"] = Button(_("Local"))
+		self["key_green"] = Button(_("Online"))
 		self["key_red"] = Button(_("Exit"))
 		self["key_blue"] = Button("")
 		self["info-local"] = Label(_("Local = Flash an image from local path /hdd/images"))

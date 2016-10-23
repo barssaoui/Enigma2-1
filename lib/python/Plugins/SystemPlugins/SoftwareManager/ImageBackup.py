@@ -18,7 +18,7 @@ import commands
 import datetime
 from boxbranding import getBoxType, getMachineBrand, getMachineName, getDriverDate, getImageVersion, getImageBuild, getBrandOEM, getMachineBuild, getImageFolder, getMachineUBINIZE, getMachineMKUBIFS, getMachineMtdKernel, getMachineKernelFile, getMachineRootFile, getImageFileSystem
 
-VERSION = "Version 4.0 OpenXTA"
+VERSION = _("Version") + " 4.0 OpenXTA"
 
 def Freespace(dev):
 	statdev = statvfs(dev)
@@ -164,7 +164,7 @@ class ImageBackup(Screen):
 
 
 		self.message = "echo -e '\n"
-		self.message += (_("Back-up Tool for an %s\n" %self.SHOWNAME)).upper()
+		self.message += (_("Back-up Tool for an %s\n") %self.SHOWNAME).upper()
 		self.message += VERSION + '\n'
 		self.message += "_________________________________________________\n\n"
 		self.message += _("Please be patient, a backup will now be made,\n")
@@ -289,7 +289,7 @@ class ImageBackup(Screen):
 
 		if file_found:
 			cmdlist.append('echo "_________________________________________________\n"')
-			cmdlist.append('echo "' + _("USB Image created on: %s" %self.MAINDEST) + '"')
+			cmdlist.append('echo "' + _("USB Image created on: %s") %self.MAINDEST + '"')
 			cmdlist.append('echo "' + _("and there is made an extra copy on:") + '"')
 			cmdlist.append('echo %s' %self.EXTRA)
 			cmdlist.append('echo "_________________________________________________\n"')
@@ -301,11 +301,11 @@ class ImageBackup(Screen):
 			cmdlist.append('echo "' + _("on how to restore the image") + '"')
 		else:
 			cmdlist.append('echo "_________________________________________________\n"')
-			cmdlist.append('echo "Image creation failed - "')
-			cmdlist.append('echo "Probable causes could be"')
-			cmdlist.append('echo "     wrong back-up destination "')
-			cmdlist.append('echo "     no space left on back-up device"')
-			cmdlist.append('echo "     no writing permission on back-up device"')
+			cmdlist.append('echo "' + _("Image creation failed - ") + '"')
+			cmdlist.append('echo "' + _("Probable causes could be") + '"')
+			cmdlist.append('echo "' + _("     wrong back-up destination ") + '"')
+			cmdlist.append('echo "' + _("     no space left on back-up device") + '"')
+			cmdlist.append('echo "' + _("     no writing permission on back-up device") + '"')
 			cmdlist.append('echo " "')
 
 		if self.DIRECTORY == "/hdd":
@@ -316,11 +316,11 @@ class ImageBackup(Screen):
 			else:
 				cmdlist.append('echo "_________________________________________________\n"')
 				cmdlist.append('echo " "')
-				cmdlist.append('echo "There is a valid USB-flash drive detected in one "')
-				cmdlist.append('echo "of the USB-ports, therefor an extra copy of the "')
-				cmdlist.append('echo "back-up image will now be copied to that USB- "')
-				cmdlist.append('echo "flash drive. "')
-				cmdlist.append('echo "This only takes about 1 or 2 minutes"')
+				cmdlist.append('echo "' + _("There is a valid USB-flash drive detected in one ") + '"')
+				cmdlist.append('echo "' + _("of the USB-ports, therefore an extra copy of the ") + '"')
+				cmdlist.append('echo "' + _("back-up image will now be copied to that USB- ") + '"')
+				cmdlist.append('echo "' + _("flash drive. ") + '"')
+				cmdlist.append('echo "' + _("This only takes about 1 or 2 minutes") + '"')
 				cmdlist.append('echo " "')
 
 				cmdlist.append('mkdir -p %s/%s' % (self.TARGET, self.IMAGEFOLDER))
@@ -328,7 +328,7 @@ class ImageBackup(Screen):
 
 
 				cmdlist.append("sync")
-				cmdlist.append('echo "Backup finished and copied to your USB-flash drive"')
+				cmdlist.append('echo "' + _("Backup finished and copied to your USB-flash drive") + '"')
 			
 		cmdlist.append("umount /tmp/bi/root")
 		cmdlist.append("rmdir /tmp/bi/root")
@@ -338,7 +338,7 @@ class ImageBackup(Screen):
 		END = time()
 		DIFF = int(END - self.START)
 		TIMELAP = str(datetime.timedelta(seconds=DIFF))
-		cmdlist.append('echo " ' + _("Time required for this process: %s" %TIMELAP) + '"')
+		cmdlist.append('echo "' + _("Time required for this process: %s") %TIMELAP + '"')
 
 		self.session.open(Console, title = self.TITLE, cmdlist = cmdlist, closeOnSuccess = False)
 

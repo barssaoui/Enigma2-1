@@ -157,7 +157,7 @@ class XTDVBNTPTime(Screen):
                 XTDVBNTPTime.NetworkConnectionAvailable = True
                 self.session.openWithCallback(self.autostartntpcheck, MessageBox, _('Restart Enigma 2 for automatic NTP-Server check on startup (on/off) ?'), MessageBox.TYPE_YESNO)
             else:
-                self.session.open(MessageBox, _('Change NTP-Server autostart not not possible:\n\nNetwork status: Unreachable !'), MessageBox.TYPE_ERROR)
+                self.session.open(MessageBox, _('Change NTP-Server autostart not possible:\n\nNetwork status: Unreachable !'), MessageBox.TYPE_ERROR)
 
     def autostartntpcheck(self, answer):
         if answer is False:
@@ -287,7 +287,7 @@ class XTDVBNTPTime(Screen):
                 self.container.appClosed.append(self.finishedntp)
                 self.container.execute('ntpdate de.pool.ntp.org tick.fh-augsburg.de time2.one4vision.de')
             else:
-                self.session.open(MessageBox, _('NTP check not not possible:\n\nNetwork status: Unreachable !'), MessageBox.TYPE_ERROR)
+                self.session.open(MessageBox, _('NTP check not possible:\n\nNetwork status: Unreachable !'), MessageBox.TYPE_ERROR)
 
     def finishedntp(self, retval):
         timenow = strftime('%Y:%m:%d %H:%M', localtime())
