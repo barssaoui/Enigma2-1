@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: enigma\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-21 19:08+0200\n"
-"PO-Revision-Date: 2016-09-10 11:35\n"
+"PO-Revision-Date: 2016-11-03 20:35\n"
 "Last-Translator: Smokey <www.xtrend-alliance.com>\n"
 "Language-Team: PLiteam <translators@openpli.org>\n"
 "Language: nl\n"
@@ -12,6 +12,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.5.7\n"
+
+msgid ""
+"\n"
+"Add post '%s' to favorites?"
+msgstr ""
+"\n"
+"Post '%s' toevoegen aan favorieten?"
 
 msgid ""
 "\n"
@@ -61,6 +68,20 @@ msgid ""
 msgstr ""
 "\n"
 "Online update van de ontvanger software."
+
+msgid ""
+"\n"
+"Only %s page available. Goto page %s."
+msgstr ""
+"\n"
+"Slechts %s pagina beschikbaar. Ga naar pagina %s."
+
+msgid ""
+"\n"
+"Only %s pages available. Goto page %s."
+msgstr ""
+"\n"
+"Slechts %s pagina's beschikbaar. Ga naar pagina %s."
 
 msgid ""
 "\n"
@@ -177,6 +198,15 @@ msgstr "geselecteerde pakketten."
 
 msgid " updates available."
 msgstr "updates beschikbaar."
+
+msgid "     no space left on back-up device"
+msgstr "     niet genoeg ruimte meer op het opslag medium"
+
+msgid "     no writing permission on back-up device"
+msgstr "     geen toestemming om op dit opslag medium te mogen schrijven"
+
+msgid "     wrong back-up destination "
+msgstr "     verkeerde back-up locatie"
 
 msgid "%2d:%02d"
 msgstr "%2d:%02d"
@@ -950,6 +980,9 @@ msgstr "Backup is mislukt."
 msgid "Backup Files"
 msgstr "Backup Bestanden"
 
+msgid "Backup finished and copied to your USB-flash drive"
+msgstr "Back-up klaar en gecopieerd naar uw USB-stick"
+
 msgid "Backup is running..."
 msgstr "Backup wordt uitgevoerd..."
 
@@ -1147,6 +1180,15 @@ msgid "Center time-labels and remove date"
 msgstr "Centreer de tijds-labels en verwijder de datum"
 
 msgid ""
+"Change NTP-Server autostart not possible:\n"
+"\n"
+"Network status: Unreachable !"
+msgstr ""
+"'Gelijk zetten aan NTP-Server bij opstarten' wijzigen is niet mogelijk:\n"      
+"\n"
+"Netwerk status: Niet bereikbaar !"
+
+msgid ""
 "Change Systemtime was canceled:\n"
 "\n"
 "%s"
@@ -1235,7 +1277,7 @@ msgid "Check and set DVB Time"
 msgstr "Controleer en stel de DVB Tijd in"
 
 msgid "Check and set with NTP-Server"
-msgstr "Controleren en gelijk zetten aan de NTP-Server"
+msgstr "Controleren en gelijk zetten aan NTP-Server"
 
 msgid ""
 "Check and set with NTP-Server not useful,switch off Enigma 2 Timeupdate "
@@ -1586,6 +1628,15 @@ msgstr ""
 
 msgid "Configure the brightness level of the front panel display."
 msgstr "Met deze optie stelt u traploos de helderheid van het display in."
+
+msgid ""
+"Configure the brightness level of the front panel display for normal "
+"operation."
+msgstr ""
+"Stel het helderheid in van het display als de ontvanger aan staat."
+
+msgid "Configure the brightness level of the front panel display for standby."
+msgstr "Stel de helderheid in van het display als de ontvanger standby staat."
 
 msgid ""
 "Configure the color of the external subtitles, alternative (normal in white, "
@@ -1965,6 +2016,11 @@ msgid ""
 msgstr ""
 "Indien geactiveerd, dan is de activiteit van de DiSEqC-motor zichtbaar. "
 
+msgid "Configure whether or not the rotor position will be displayed on infobar"
+msgstr ""
+"Instellen of de rotor positie wel of niet moet worden getoond in de "
+"informatiebalk"
+
 msgid ""
 "Configure which access level to use for the configuration menu. Expert level "
 "gives access to all items."
@@ -2063,6 +2119,9 @@ msgstr "Doorlopend afspelen"
 
 msgid "Continue playing"
 msgstr "Afspelen voortzetten"
+
+msgid "Continues"
+msgstr "Continu"
 
 msgid "Continues play (loop)"
 msgstr "Continu afspelen (lus)"
@@ -2291,7 +2350,7 @@ msgid "Do you want to restart now?"
 msgstr "Wilt u nu herstarten?"
 
 msgid "Do you want to update your %s %s?"
-msgstr "Wilt u uw %s %s updaten?"
+msgstr "                Wilt u uw %s %s updaten?"
 
 msgid "DUAL LAYER DVD"
 msgstr "DUAL LAYER DVD"
@@ -2336,7 +2395,7 @@ msgid "DVB subtitle black transparency"
 msgstr "Zwarte transparantie van DVB ondertitels"
 
 msgid "DVB Time check autostart"
-msgstr "Start DVB Time check automatisch"
+msgstr "Start controle van de DVB Tijd automatisch" 
 
 msgid "DVB-C"
 msgstr "DVB-C"
@@ -2416,11 +2475,17 @@ msgstr "Verwijder invoer"
 msgid "Delete failed!"
 msgstr "Verwijderen mislukt!"
 
+msgid "Delete favorite"
+msgstr "Favoriet verwijderen"
+
 msgid "Delete file"
 msgstr "Verwijder bestand"
 
 msgid "Delete playlist entry"
 msgstr "Verwijder een item uit de afspeellijst"
+
+msgid "Delete post '%s' from favorites?"
+msgstr "Post '%s' verwijderen van favorieten?"
 
 msgid "Delete saved playlist"
 msgstr "Verwijder een opgeslagen afspeellijst"
@@ -2729,6 +2794,9 @@ msgstr "EPG taalselectie 2"
 msgid "EPG location"
 msgstr "EPG locatie"
 
+msgid "EPG Selection"
+msgstr "EPG Selectie"
+
 msgid "EPG selection"
 msgstr "EPG selectie"
 
@@ -3011,6 +3079,9 @@ msgstr "Wizard afsluiten"
 
 msgid "Expert"
 msgstr "Expert"
+
+msgid "Export"
+msgstr "Exporteer"
 
 msgid "Extend sleeptimer 15 minutes"
 msgstr "Verleng de sleeptimer met 15 minuten"
@@ -3489,6 +3560,9 @@ msgstr "Tint"
 msgid "Hungarian"
 msgstr "Hongaars"
 
+msgid "Image creation failed - "
+msgstr "Image creatie mislukt - "
+
 msgid "Image Tools"
 msgstr "Image Gereedschap"
 
@@ -3557,6 +3631,13 @@ msgstr "ISO pad"
 
 msgid "Icons"
 msgstr "Iconen"
+
+msgid"" 
+"If the text is too long to be displayed on the front panel, it will be "
+"repeated (number of times):"
+msgstr ""
+"Als de text te lang is om op het display weer te geven, dan zal de text"
+" herhaald worden. (aantal maal herhalen):"
 
 msgid ""
 "If you see this, something is wrong with\n"
@@ -3935,7 +4016,7 @@ msgid "List available networks"
 msgstr "Toon beschikbare netwerken"
 
 msgid "List mode"
-msgstr "Lijstmode"
+msgstr "Lijst modus"
 
 msgid "List of storage devices"
 msgstr "Overzicht van opslagmedia"
@@ -4565,7 +4646,7 @@ msgid "Nonlinear"
 msgstr "Nonlineair"
 
 msgid "Normal mode"
-msgstr "Normale mode"
+msgstr "Normale modus"
 
 msgid "North"
 msgstr "Noord"
@@ -4640,6 +4721,15 @@ msgstr ""
 "vlakken van elkaar kunt onderscheiden.\n"
 "\n"
 "Indien het resultaat goed is, drukt u op OK."
+
+msgid ""
+"NTP check not possible:\n"
+"\n"
+"Network status: Unreachable !"
+msgstr ""
+"NTP conrtole niet mogelijk:\n"
+"\n"
+"Netwerk status: Niet bereikbaar !"
 
 msgid "OK"
 msgstr "Bevestigen"
@@ -4754,6 +4844,15 @@ msgstr "Pakket Manager"
 
 msgid "Packet manager"
 msgstr "Pakketbeheer"
+
+msgid "Page"
+msgstr "Pagina"
+
+msgid "Page %i of %i"
+msgstr "Pagina %i van %i"
+
+msgid "Page %s of %s"
+msgstr "Pagina %s van %s"
 
 msgid "Pan&scan"
 msgstr "Pan&Scan"
@@ -5262,6 +5361,9 @@ msgstr "Primaire DNS"
 msgid "Priority"
 msgstr "Prioriteit"
 
+msgid "Probable causes could be"
+msgstr "Mogelijke oorzaken kunnen zijn:"
+
 msgid "Process"
 msgstr "Proces"
 
@@ -5573,8 +5675,8 @@ msgstr ""
 
 msgid "Restart Enigma 2 to display DVB Time check results on startup (on/off) ?"
 msgstr ""
-"Enigma 2 herstarten om 'Toon NTP informatie bij opstarten' aan/uit te "
-"schakelen ?"
+"Enigma 2 herstarten om 'Toon resultaten van NTP Tijd contole bij opstarten' "
+"aan/uit te schakelen ?"
 
 msgid ""
 "Restart Enigma 2 to switch on/off Enigma 2 Timeupdate on startup ?\n"
@@ -5927,6 +6029,9 @@ msgstr "Kies backupbestanden"
 
 msgid "Select backup location"
 msgstr "Kies een backuplocatie"
+
+msgid "Select Channel"
+msgstr "Zender Kiezen"
 
 msgid "Select channel to record from"
 msgstr "Kies de juiste zender om van op te nemen"
@@ -6640,7 +6745,7 @@ msgid "Sort list:"
 msgstr "Sorteren op:"
 
 msgid "Sort time"
-msgstr "Sorteertijd"
+msgstr "Sorteer Tijd"
 
 msgid "Sound"
 msgstr "Geluid"
@@ -7005,6 +7110,9 @@ msgstr "Systeem Info"
 msgid "System Information..."
 msgstr "Systeem Informatie..."
 
+msgid "SystemPlugin SkinSelector is not installed!"
+msgstr "SystemPlugin SkinSelector is niet geïnstalleerd!"
+
 msgid "TRANSLATOR_INFO"
 msgstr ""
 "Deze vertaling wordt u aangeboden door :\n"
@@ -7273,6 +7381,9 @@ msgstr "Er zijn geen uitstaande acties"
 msgid "There are no updates available."
 msgstr "Er zijn momenteel geen updates beschikbaar"
 
+msgid "There is a valid USB-flash drive detected in one "
+msgstr "Er is een geldige USB-stick gedetecteerd in één"
+
 msgid "There is no signal to lock on !"
 msgstr "Er is geen signaal om te locken !"
 
@@ -7295,27 +7406,30 @@ msgstr ""
 "Dit DVD-RW medium is reeds geformatteerd - herformatteren zal alles wissen "
 "op deze disk."
 
-msgid "This option allows you choose how to display elapsed time as + or -"
+msgid "This only takes about 1 or 2 minutes"
+msgstr "Dit duurt maar 1 of 2 minuten"
+
+msgid "This option allows you to choose how to display elapsed time as + or -"
 msgstr ""
 "Hiermee kunt u kiezen hoe de Verlopen Tijd moet worden weergegeven. "
 "U kunt kiezen uit ja of nee (Positief of Negatief)."
 
 msgid ""
-"This option allows you choose how to display remaining time, or elapsed time, "
+"This option allows you to choose how to display remaining time, or elapsed time, "
 "or both."
 msgstr ""
 "Hiermee kunt u kiezen hoe de tijd in het display wordt weergegeven. u kunt "
 "kiezen uit Tijd-Resterend, Tijd-Verstreken of allebei."
 
 msgid ""
-"This option allows you choose how to display the remaining/elapsed time for "
+"This option allows you to choose how to display the remaining/elapsed time for "
 "live tv."
 msgstr ""
 "Hiermee kunt u kiezen hoe de Tijd Resterend/Verstreken van Live TV in het "
 "display wordt weergegeven."
 
 msgid ""
-"This option allows you choose how to display the remaining/elapsed time for "
+"This option allows you to choose how to display the remaining/elapsed time for "
 "Media playback."
 msgstr ""
 "Hiermee kunt u kiezen hoe de Tijd Resterend/Verstreken van afspelende media "
@@ -7665,7 +7779,7 @@ msgstr "Turks"
 msgid "Turn on the power LED during standby."
 msgstr ""
 "Met deze optie bepaalt u of de Power Led brandt als de ontvanger standby "
-"staat."
+"of uit staat."
 
 msgid "Turning step size"
 msgstr "Stap voor stap draaien"
@@ -7755,7 +7869,7 @@ msgid "Unknown"
 msgstr "Onbekend"
 
 msgid "Unmount"
-msgstr "Ontkoppel"
+msgstr "Unmount"
 
 msgid "Unsupported"
 msgstr "Niet ondersteund"
@@ -8879,6 +8993,42 @@ msgstr ""
 "Dit kan enige minuten duren."
 
 msgid ""
+"Your image is out of date!"
+"\n"
+"\n"
+"After such a long time, there is a risk that your %s %s will not"
+"\n"
+"boot after online-update, or will show disfunction in running Image."
+"\n"
+"\n"
+"A new flash will increase the stability"
+"\n"
+"\n"
+"An online update is done at your own risk !!"
+"\n"
+"\n"
+"\n"
+"Do you still want to update?"
+msgstr ""
+"Uw image is te oud!"
+"\n"
+"\n"
+"Na zo'n lange tijd, bestaat het risico dat uw %s %s niet meer zal"
+"\n"
+"opstarten na een online-update, of er kunnen onderdelen van het huidige Image "
+"zijn die niet meer werken."
+"\n"
+"\n"
+"Een nieuw Image flashen zal de stabiliteit verbeteren"
+"\n"
+"\n"
+"Een online update is op eigen risico !!"
+"\n"
+"\n"
+"\n"
+"Wilt u nog steeds updaten?"
+
+msgid ""
 "Your internet connection is not working!\n"
 "Please choose what you want to do next."
 msgstr ""
@@ -9113,6 +9263,9 @@ msgstr "maak een backup van uw instellingen..."
 
 msgid "backupstick or backupstick.txt"
 msgstr "backupstick of backupstick.txt"
+
+msgid "back-up image will now be copied to that USB- "
+msgstr "image back-up nu gecopieerd naar deze"
 
 msgid "ballet"
 msgstr "ballet"
@@ -9365,6 +9518,9 @@ msgstr "Uw scherm secuur afstellen"
 
 msgid "fitness & health"
 msgstr "fittness & gezondheid"
+
+msgid "flash drive. "
+msgstr "USB-stick."
 
 msgid "flat alphabetic"
 msgstr "enkel alfabetisch"
@@ -9623,6 +9779,9 @@ msgstr "op een DUAL layer medium gebruikt."
 msgid "of a SINGLE layer medium used."
 msgstr "op een SINGLE layer medium gebruikt."
 
+msgid "of the USB-ports, therefor an extra copy of the "
+msgstr "van de usb poorten, dus wordt er een extra kopie van de"
+
 msgid "off"
 msgstr "uit"
 
@@ -9678,6 +9837,9 @@ msgstr "origineel"
 
 msgid "original language"
 msgstr "orginele taal"
+
+msgid "page"
+msgstr "pagina"
 
 msgid "pass"
 msgstr "passage"
