@@ -180,33 +180,33 @@ class ModelPic(Screen):
 				"cancel": self.close,
 				"ok": self.close,
 				"blue": self.close
-			}, -2)		              
+			}, -2)
 		
         def poster_resize(self):
                 if getBoxType() in ('et4x00'):
-                        model = "et4x00.jpg"
+                        model = "et4x00.png"
                 elif getBoxType() in ('et5000', 'et5x00'):
-                        model = "et5x00.jpg"
+                        model = "et5x00.png"
                 elif getBoxType() in ('et6x00', 'et6000'):
-                        model = "et6x00.jpg"
+                        model = "et6x00.png"
                 elif getBoxType() in ('et6500'):
-                        model = "et6500.jpg"
+                        model = "et6500.png"
                 elif getBoxType() in ('et7000'):
-                        model = "et7000.jpg"
+                        model = "et7000.png"
                 elif getBoxType() in ('et7500'):
-                        model = "et7500.jpg"
+                        model = "et7500.png"
                 elif getBoxType() in ('et8000'):
-                        model = "et8000.jpg"
+                        model = "et8000.png"
                 elif getBoxType() in ('et8500', 'et8500s'):
-                        model = "et8500.jpg"
+                        model = "et8500.png"
                 elif getBoxType() in ('et9000', 'et9x00', 'et9200', 'et9500'):
-                        model = "et9x00.jpg"
+                        model = "et9x00.png"
                 elif getBoxType() in ('et10000'):
-                        model = "et10000.jpg"
+                        model = "et10000.png"
                 else:
                         model = None
                         
-                poster_path = "/usr/share/enigma2/%s" % model        
+                poster_path = "/usr/share/enigma2/%s" % model
                 self["boxpic"].hide()
                 sc = AVSwitch().getFramebufferScale()
                 self.picload = ePicLoad()
@@ -216,7 +216,7 @@ class ModelPic(Screen):
                         ptr = self.picload.getData()
                         if ptr != None:
                                 self["boxpic"].instance.setPixmap(ptr)
-                                self["boxpic"].show()                                	
+                                self["boxpic"].show()
                 
 class TranslationInfo(Screen):
 	def __init__(self, session):
